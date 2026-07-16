@@ -80,7 +80,8 @@ No backend, no analytics, no ads. API keys live in the device Keychain; hotwords
 custom styles, and history stay in local storage. When you record, audio is sent
 to Soniox with your Soniox key; cleanup text is sent to your chosen AI provider
 with that provider's key. Nothing routes through any server owned by this project.
-See `V2A/Views/AboutView.swift` for the in-app privacy text.
+See `V2A/Views/AboutView.swift` for the in-app privacy text, or the hosted
+policy at <https://charlesguooo.github.io/v2a-privacy/>.
 
 ## License
 
