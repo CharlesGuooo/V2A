@@ -1,0 +1,39 @@
+# Xcode / build
+build/
+build-sim/
+DerivedData/
+.build/
+.swiftpm/
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+
+# xcodegen output (regenerated from project.yml)
+*.xcodeproj
+
+# Signing / secrets — NEVER commit
+*.p8
+*.mobileprovision
+*.cer
+*.certSigningRequest
+*.p12
+*.key
+ExportOptions.plist
+certs/
+api.txt
+
+# macOS / editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# design scratch
+*-mockups.html
+
+# python cache
+__pycache__/
+*.pyc

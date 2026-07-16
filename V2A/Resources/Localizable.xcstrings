@@ -1,0 +1,971 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "version" : "1.0",
+  "strings" : {
+    "V2A · 语音 → 文字 → AI 整理" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "V2A · Voice → Text → AI Cleanup" } }
+      }
+    },
+    "说一段，停一下，AI 整理后复制给 agent" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Speak a bit, pause, then copy the AI-cleaned text to your agent." } }
+      }
+    },
+    "未配置 Soniox API Key。点右上角齿轮添加。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox API key not set. Tap the gear in the top-right to add one." } }
+      }
+    },
+    "未配置 %@ 的 API Key。AI 整理不可用，请去设置添加。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ API key not set. AI cleanup is unavailable — open Settings to add one." } }
+      }
+    },
+    "清空全部" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear all" } }
+      }
+    },
+    "正在连接 Soniox…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Connecting to Soniox…" } }
+      }
+    },
+    "正在保存…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Saving…" } }
+      }
+    },
+    "录音中…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Recording…" } }
+      }
+    },
+    "点按钮开始" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap the button to start" } }
+      }
+    },
+    "需要先配置 API Key" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "API key required first" } }
+      }
+    },
+    "原始转录" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Raw transcript" } }
+      }
+    },
+    "转录的文字会出现在这里。停止后可编辑。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Transcribed text appears here. Editable after you stop." } }
+      }
+    },
+    "已复制 ✓" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copied ✓" } }
+      }
+    },
+    "复制原文" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy raw" } }
+      }
+    },
+    "整理中…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cleaning up…" } }
+      }
+    },
+    "AI 整理 →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "AI Cleanup →" } }
+      }
+    },
+    "AI 整理后" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cleaned" } }
+      }
+    },
+    "AI 整理后的文本会出现在这里。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cleaned text appears here." } }
+      }
+    },
+    "未配置 AI provider API key — AI 整理不可用。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No AI provider API key — cleanup unavailable." } }
+      }
+    },
+    "复制整理后" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy cleaned" } }
+      }
+    },
+    "● 开始录音" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "● Start recording" } }
+      }
+    },
+    "■ 停止录音" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "■ Stop" } }
+      }
+    },
+    "连接中…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Connecting…" } }
+      }
+    },
+    "停止中…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Stopping…" } }
+      }
+    },
+    "设置" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } }
+      }
+    },
+    "取消" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel" } }
+      }
+    },
+    "保存" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save" } }
+      }
+    },
+    "AI 整理（必需）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "AI Cleanup (required)" } }
+      }
+    },
+    "选一家 provider 给你的语音转录做后期清理。每家 key 独立存储，可随时切换。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Pick a provider to clean up your transcripts. Each key is stored separately; switch any time." } }
+      }
+    },
+    "去 %@ 网站拿 key →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get a %@ API key →" } }
+      }
+    },
+    "整理风格" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cleanup Style" } }
+      }
+    },
+    "告诉 AI 怎么整理" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tell AI how to clean up" } }
+      }
+    },
+    "用默认风格，或者自己写一个/两个。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Use the default style, or write one or two of your own." } }
+      }
+    },
+    "默认风格" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Default style" } }
+      }
+    },
+    "自定义 1" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Custom 1" } }
+      }
+    },
+    "自定义 2" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Custom 2" } }
+      }
+    },
+    "Soniox 实时转录（必需）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox Real-time Transcription (required)" } }
+      }
+    },
+    "启用的语言" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enabled languages" } }
+      }
+    },
+    "去 Soniox 网站拿 key →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Get a Soniox API key →" } }
+      }
+    },
+    "用来把你说的话实时转成文字。从 console.soniox.com 拿 key。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Used to transcribe your voice in real time. Get a key at console.soniox.com." } }
+      }
+    },
+    "热词" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hotwords" } }
+      }
+    },
+    "添加热词" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add hotword" } }
+      }
+    },
+    "加入" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add" } }
+      }
+    },
+    "把人名、专有名词、缩写加进来，Soniox 识别会更准。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add names, proper nouns, abbreviations — Soniox will recognize them more accurately." } }
+      }
+    },
+    "逗号或回车分隔多个；左滑删除单个。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Separate multiple with commas or newlines; swipe left to delete one." } }
+      }
+    },
+    "通用" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "General" } }
+      }
+    },
+    "界面语言" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "App Language" } }
+      }
+    },
+    "跟随系统" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Follow System" } }
+      }
+    },
+    "中文" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "中文" } }
+      }
+    },
+    "帮助" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Help" } }
+      }
+    },
+    "怎么拿 API key" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "How to get API keys" } }
+      }
+    },
+    "关于 / 隐私" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "About / Privacy" } }
+      }
+    },
+    "Soniox 语言" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox Languages" } }
+      }
+    },
+    "勾选你会说的语言。勾得越多越容易误判（比如把中文听成日文）。至少保留一个；默认中 + 英。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Check the languages you speak. The more you enable, the more likely Soniox will mis-detect (e.g. hearing Chinese as Japanese). Keep at least one; defaults to Chinese + English." } }
+      }
+    },
+    "不可修改" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Read-only" } }
+      }
+    },
+    "默认风格已经写好。发给 AI 的是英文版（识别效果最好），上面显示的是中文翻译。想改成自己的风格，复制到下面的自定义版本里改。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The default style is ready to use. The version sent to AI is in English (best results); above shows a Chinese translation. To customize, copy it into one of the slots below and edit." } }
+      }
+    },
+    "复制默认风格" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy default style" } }
+      }
+    },
+    "自定义版本 %lld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Custom version %lld" } }
+      }
+    },
+    "当前使用" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "in use" } }
+      }
+    },
+    "停止" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Stop" } }
+      }
+    },
+    "录音输入" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Record" } }
+      }
+    },
+    "填入默认" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Fill default" } }
+      }
+    },
+    "完成" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Done" } }
+      }
+    },
+    "未配置 Soniox key，去设置 → Soniox 那栏填一下。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox key not set. Open Settings → Soniox to add it." } }
+      }
+    },
+    "麦克风权限被拒绝。设置 → V2A → 允许麦克风。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Microphone permission denied. Settings → V2A → enable Microphone." } }
+      }
+    },
+    "Soniox · 把语音转成文字（必需）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox · Voice to Text (required)" } }
+      }
+    },
+    "%@ · 帮你整理文字" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ · Cleans up text" } }
+      }
+    },
+    "打开 Soniox 控制台 →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open Soniox Console →" } }
+      }
+    },
+    "打开 %@ 控制台 →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open %@ Console →" } }
+      }
+    },
+    "打开 console.soniox.com，用邮箱注册一个账号" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open console.soniox.com and sign up with email" } }
+      }
+    },
+    "登录后左边菜单找到「API Keys」" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sign in, then find 'API Keys' in the left menu" } }
+      }
+    },
+    "点「Create API Key」生成一个新 key" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap 'Create API Key' to generate a new key" } }
+      }
+    },
+    "复制出来的那串字符，回到 V2A 设置粘到 Soniox 那栏" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy the key string and paste it into V2A → Settings → Soniox" } }
+      }
+    },
+    "打开 platform.deepseek.com 注册账号（手机号或邮箱都行）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open platform.deepseek.com and sign up (phone or email)" } }
+      }
+    },
+    "登录后点右上角头像 → API Keys" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sign in, then tap your avatar (top-right) → API Keys" } }
+      }
+    },
+    "点「Create new API key」起个名字，生成 key" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap 'Create new API key', give it a name, generate the key" } }
+      }
+    },
+    "复制 sk- 开头的字符串，回到 V2A 设置粘进 AI 整理那栏" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy the sk- key and paste it into V2A → Settings → AI Cleanup" } }
+      }
+    },
+    "打开 console.anthropic.com 注册账号" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open console.anthropic.com and sign up" } }
+      }
+    },
+    "充值至少 5 美元（Anthropic 要求先充值才能用 API）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add at least $5 of credit (Anthropic requires prepayment before API use)" } }
+      }
+    },
+    "左边菜单 API Keys → 点「Create Key」" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Left menu → API Keys → tap 'Create Key'" } }
+      }
+    },
+    "复制 sk-ant- 开头的 key，回到 V2A 设置粘进去" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy the sk-ant- key and paste it into V2A → Settings" } }
+      }
+    },
+    "打开 aistudio.google.com，用 Google 账号登录" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open aistudio.google.com and sign in with Google" } }
+      }
+    },
+    "左下角点「Get API key」" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap 'Get API key' at the bottom-left" } }
+      }
+    },
+    "点「Create API key」，选一个 Google Cloud 项目（没有就让它新建）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap 'Create API key' and pick a Google Cloud project (let it create one if you don't have any)" } }
+      }
+    },
+    "复制 AIza 开头的 key，回到 V2A 设置粘进去" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy the AIza key and paste it into V2A → Settings" } }
+      }
+    },
+    "打开 platform.openai.com 注册账号" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open platform.openai.com and sign up" } }
+      }
+    },
+    "必须先充值（最少 5 美元）才能用 API" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add credit (at least $5) before you can use the API" } }
+      }
+    },
+    "右上角设置 → API keys → Create new secret key" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Top-right Settings → API keys → 'Create new secret key'" } }
+      }
+    },
+    "复制 sk- 开头的 key（关掉就看不到了，记得马上粘到 V2A）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy the sk- key (it disappears once you close the dialog — paste into V2A right away)" } }
+      }
+    },
+    "打开 console.groq.com，可以直接用 Google 或 GitHub 登录" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Open console.groq.com — sign in with Google or GitHub" } }
+      }
+    },
+    "左边菜单点「API Keys」" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Left menu → API Keys" } }
+      }
+    },
+    "点「Create API Key」起个名字" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap 'Create API Key' and give it a name" } }
+      }
+    },
+    "复制 gsk_ 开头的 key，回到 V2A 设置粘进去" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy the gsk_ key and paste it into V2A → Settings" } }
+      }
+    },
+    "新账号有免费额度，先用着不要钱。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "New accounts get free credit — costs nothing to start." } }
+      }
+    },
+    "每天有免费配额，量不大的话不用付钱。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Daily free quota — usually no payment needed for casual use." } }
+      }
+    },
+    "免费额度大、速度飞快。适合刚开始试。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Generous free tier and very fast. Great to try first." } }
+      }
+    },
+    "质量最稳，但要先充钱才能用。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Most consistent quality, but requires prepaid credit." } }
+      }
+    },
+    "知名度最高，但价格不便宜，要先充值。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Most well-known but pricier — requires prepaid credit." } }
+      }
+    },
+    "关于" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "About" } }
+      }
+    },
+    "版本" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Version" } }
+      }
+    },
+    "说一段话 → 实时转成文字 → AI 整理通顺 → 复制给 ChatGPT / Claude / 任何 Agent。打字慢的时候用。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Speak → live transcript → AI cleans it up → copy to ChatGPT / Claude / any agent. For when typing is too slow." } }
+      }
+    },
+    "隐私" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Privacy" } }
+      }
+    },
+    "你填进去的 API key 只存在这台手机的 keychain 里，我们看不到，也不会上传。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your API keys are stored only in this phone's Keychain. We never see them or upload them." } }
+      }
+    },
+    "录音通过你自己的 Soniox key 发到 Soniox，整理通过你自己的 AI 厂商 key 发到对应厂商。中间不经过任何我们的服务器。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Audio is sent to Soniox via your own Soniox key; cleanup runs through your own AI-provider key. Nothing routes through our servers." } }
+      }
+    },
+    "热词、自定义整理风格、设置项都只存在本机。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Hotwords, custom styles, and settings stay on this device." } }
+      }
+    },
+    "我们不收集任何使用数据、不做分析、不做广告。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "We collect no usage data, no analytics, no ads." } }
+      }
+    },
+    "App 完全断网时除了录音之外都不能用——所有功能都靠你自己的 key 调用第三方 API。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Offline, only basic recording works — every feature relies on third-party APIs via your own keys." } }
+      }
+    },
+    "如果换设备或重装，记得在新设备重新填一次 key。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "If you switch devices or reinstall, remember to re-enter your keys on the new device." } }
+      }
+    },
+    "上一步" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Back" } }
+      }
+    },
+    "下一步" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Next" } }
+      }
+    },
+    "完成，开始用" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Done, let's go" } }
+      }
+    },
+    "欢迎用 V2A" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Welcome to V2A" } }
+      }
+    },
+    "说一段话，自动转成文字，AI 帮你整理通顺，一键复制给 ChatGPT 或其他 agent。打字慢的时候特别好用。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Speak a sentence — it transcribes automatically, AI cleans it up, copy to ChatGPT or any agent in one tap. Great when typing is too slow." } }
+      }
+    },
+    "接下来要填两个 key：" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Next, you'll add two keys:" } }
+      }
+    },
+    "· Soniox（把声音变文字）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "· Soniox (voice → text)" } }
+      }
+    },
+    "· 一家 AI 服务商（整理文字，5 家任选其一）" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "· One AI provider (text cleanup, pick any of 5)" } }
+      }
+    },
+    "两个 key 都从对应官网注册账号免费拿。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Both keys are free to grab — sign up on each provider's website." } }
+      }
+    },
+    "第 1 步 · Soniox key" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Step 1 · Soniox key" } }
+      }
+    },
+    "Soniox 负责把你说的话实时转成文字。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox transcribes your voice in real time." } }
+      }
+    },
+    "把 Soniox API key 粘进来" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Paste your Soniox API key here" } }
+      }
+    },
+    "还没有 key？打开 Soniox 注册 →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Don't have one? Sign up at Soniox →" } }
+      }
+    },
+    "拿 key 的步骤：注册账号 → 登录 → 左侧 API Keys → Create API Key → 复制。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Steps: sign up → sign in → left menu API Keys → Create API Key → copy." } }
+      }
+    },
+    "第 2 步 · 选一家 AI" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Step 2 · Pick an AI" } }
+      }
+    },
+    "用谁来帮你整理文字。5 家任选一家，以后随时可以切换。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Choose who cleans up your text. Pick one of 5; you can switch any time later." } }
+      }
+    },
+    "AI 服务商" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "AI Provider" } }
+      }
+    },
+    "把 %@ 的 API key 粘进来" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Paste your %@ API key here" } }
+      }
+    },
+    "还没有 key？打开 %@ 注册 →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Don't have one? Sign up at %@ →" } }
+      }
+    },
+    "Deepseek 注册就送免费额度，对中文友好，推荐先用这家试试。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Deepseek gives free credit on signup. Great for Chinese. Recommended to start with." } }
+      }
+    },
+    "Claude 质量最稳，但需要先在 Anthropic 充值才能用。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Claude has the most consistent quality, but Anthropic requires prepaid credit." } }
+      }
+    },
+    "Google Gemini 每天有免费配额，量不大的话不用付钱。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Google Gemini has a daily free quota — likely free for casual use." } }
+      }
+    },
+    "OpenAI 知名度最高，但要先充值才能用 API。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "OpenAI is the most well-known, but requires prepaid credit." } }
+      }
+    },
+    "Groq 速度飞快、免费额度大。适合刚开始试。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Groq is very fast with a generous free tier. Great to start with." } }
+      }
+    },
+    "转录历史" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Transcript history" } }
+      }
+    },
+    "清空" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear" } }
+      }
+    },
+    "清空全部历史？" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Clear all history?" } }
+      }
+    },
+    "这个操作不能撤销。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This action can't be undone." } }
+      }
+    },
+    "还没有历史记录" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No history yet" } }
+      }
+    },
+    "AI 整理完成后会自动保存最近 20 条到这里。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Up to 20 cleaned-up sessions are auto-saved here." } }
+      }
+    },
+    "历史详情" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Session detail" } }
+      }
+    },
+    "记录转录历史" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save transcript history" } }
+      }
+    },
+    "最近 %lld 条" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "last %lld" } }
+      }
+    },
+    "历史保存在本机，不上传。关掉后不再新增历史；已有的不会被删。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "History stays on this device. Turning this off stops new entries from being saved, but doesn't delete existing ones." } }
+      }
+    },
+    "整理完自动复制" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Auto-copy after cleanup" } }
+      }
+    },
+    "已自动复制到剪贴板" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copied to clipboard" } }
+      }
+    },
+    "「自动复制」打开后，AI 整理一完成就把结果写到剪贴板，省一步操作。历史保存在本机。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "When 'Auto-copy' is on, the cleaned text is written to your clipboard the moment AI cleanup finishes. History stays on this device." } }
+      }
+    },
+    "外观" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Appearance" } }
+      }
+    },
+    "轻度整理" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Quick" } }
+      }
+    },
+    "深度整理" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Deep" } }
+      }
+    },
+    "复制这段" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Copy this" } }
+      }
+    },
+    "填入模板" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Fill from template" } }
+      }
+    },
+    "自定义 %lld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Custom %lld" } }
+      }
+    },
+    "在主页长按「轻度整理」或「深度整理」就能选用这一版。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "On the main screen, long-press \"Quick\" or \"Deep\" to use this version." } }
+      }
+    },
+    "快速清理：删语气词、修标点、小幅通顺。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Quick cleanup: remove fillers, fix punctuation, light polish." } }
+      }
+    },
+    "结构化：识别改口只留最终意思、把分点整理成 bullet。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Structured: resolve self-corrections to final intent, format points as bullets." } }
+      }
+    },
+    "看轻度 / 深度整理的规则，或者自己写一两个自定义版本（主页长按整理按钮选用）。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "See how Quick / Deep cleanup work, or write one or two custom versions (long-press a cleanup button on the main screen to use them)." } }
+      }
+    },
+    "亮" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Light" } }
+      }
+    },
+    "暗" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Dark" } }
+      }
+    },
+    "AI 响应超时，稍后重试。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "AI response timed out. Try again in a moment." } }
+      }
+    },
+    "无网络连接，检查网络后重试。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No internet connection. Check your network and retry." } }
+      }
+    },
+    "%@ 余额 / 额度不足，无法整理。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%@ is out of balance / quota — cleanup unavailable." } }
+      }
+    },
+    "去 %@ 充值 →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add credit at %@ →" } }
+      }
+    },
+    "%@ 的 API key 无效或已失效。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The %@ API key is invalid or expired." } }
+      }
+    },
+    "去设置重新配置" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Fix it in Settings" } }
+      }
+    },
+    "请求太频繁，稍等几秒再试。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Too many requests. Wait a few seconds and retry." } }
+      }
+    },
+    "AI 整理失败（%lld）：%@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cleanup failed (%1$lld): %2$@" } }
+      }
+    },
+    "AI 整理失败：%@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cleanup failed: %@" } }
+      }
+    },
+    "Soniox 的 API key 无效或已失效。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The Soniox API key is invalid or expired." } }
+      }
+    },
+    "去 Soniox 充值 →" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add credit at Soniox →" } }
+      }
+    },
+    "Soniox 余额 / 额度不足，无法转录。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox is out of balance / quota — transcription unavailable." } }
+      }
+    },
+    "Soniox 连接出错：%@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox connection error: %@" } }
+      }
+    },
+    "Soniox 连接断开，请重试。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox disconnected. Please retry." } }
+      }
+    },
+    "未配置 Soniox API key。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox API key not set." } }
+      }
+    },
+    "录音被来电或其它 App 打断，已停止。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Recording was interrupted by a call or another app, so it stopped." } }
+      }
+    },
+    "Soniox 连接失败：%@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soniox connection failed: %@" } }
+      }
+    },
+    "麦克风失败：%@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Microphone error: %@" } }
+      }
+    },
+    "没听到声音，检查麦克风或说话音量。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Didn't catch any audio — check your mic or speak louder." } }
+      }
+    },
+    "录音中" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Recording" } }
+      }
+    },
+    "开始录音" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Start recording" } }
+      }
+    },
+    "启动失败：%@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Failed to start: %@" } }
+      }
+    },
+    "%lld 字" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "%lld chars" } }
+      }
+    },
+    "麦克风已经在录" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Microphone is already recording" } }
+      }
+    },
+    "无法构造 16kHz Int16 输出格式" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Failed to build 16kHz Int16 output format" } }
+      }
+    },
+    "无法构造 AVAudioConverter" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Failed to build AVAudioConverter" } }
+      }
+    },
+    "AVAudioEngine 启动失败：%@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "AVAudioEngine failed to start: %@" } }
+      }
+    },
+    "Soniox URL 异常" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Invalid Soniox URL" } }
+      }
+    },
+    "未知错误" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unknown error" } }
+      }
+    },
+    "AI 返回格式异常：缺少内容字段" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unexpected AI response: missing content field" } }
+      }
+    },
+    "AI 返回非 HTTP 响应" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "AI returned a non-HTTP response" } }
+      }
+    },
+    "未知的 provider：%@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unknown provider: %@" } }
+      }
+    },
+    "缺少 API key" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Missing API key" } }
+      }
+    },
+    "重开 App 生效" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Restart to Apply" } }
+      }
+    },
+    "界面语言已切换，完全关闭并重新打开 V2A 后生效。" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The app language changed. Fully close and reopen V2A for it to take effect." } }
+      }
+    },
+    "知道了" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Got it" } }
+      }
+    }
+  }
+}
